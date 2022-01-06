@@ -5,6 +5,7 @@
 }
 
 body{
+    
     height: 35%;
     background-color: #1d242b;
     width:570px;
@@ -20,7 +21,7 @@ body{
 #newtask{
     position: relative;
     padding:30px 15px;
-    background: #fff;
+    background: rgb(247, 240, 240);
     border-radius:5px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
 }
@@ -51,7 +52,7 @@ body{
     border-radius: 3px;
     font-weight: 500;
     font-size: 16px;
-    background: #b3abe2;
+    background: #310357;
     color: #fff;
     border: none;
     outline: none;
@@ -62,13 +63,13 @@ body{
     width: 100%;
     position: relative;
     margin-top: 40px;
-    background: #fff;
+    background: rgb(247, 240, 240);
     padding: 30px 20px;
     border-radius: 5px;
 }
 
 .task{
-    background: #fff;
+    background: rgb(245, 213, 213);
     height: 50px;
     padding: 5px 10px;
     border-radius: 0px;
@@ -90,10 +91,10 @@ body{
 
 .task button{
     border:none;
-    background: #b3abe2;
+    background: #310357;
     height:100%;
     width:70px;
-    color: #fff;
+    color:#fff;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -102,4 +103,7 @@ body{
     text-decoration: line-through ;
     opacity: 0.8;
 
+}
+body{
+    background-image: URL(https://cdn.offering.solutions/img/blog/aerial-view-of-laptop-and-notebook_bw_osc.jpg);
 }
